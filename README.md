@@ -12,7 +12,7 @@
 [![ROC--AUC](https://img.shields.io/badge/ROC--AUC-97.31%25-4F46E5?style=flat-square)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-[Live App](https://customer-churn-prediction-dquj8ttzoyx9l2q3tzsd59.streamlit.app/) · [API Docs](https://customer-churn-prediction-70xe.onrender.com/docs) · [Power BI Dashboard](powerbi/Customer_Churn_Dashboard.pbix) · [Quick Start](#-quick-start--local-setup)
+[Live App](https://customer-churn-prediction-dquj8ttzoyx9l2q3tzsd59.streamlit.app/) · [API Docs](https://customer-churn-prediction-70xe.onrender.com/docs) · [Power BI Dashboard](#-power-bi-dashboard) · [Quick Start](#-quick-start--local-setup)
 
 </div>
 
@@ -24,6 +24,7 @@
 - [Application Screenshots](#️-application-screenshots)
 - [Key Capabilities](#-key-system-capabilities)
 - [Model Comparison](#-machine-learning-model-comparison)
+- [Power BI Dashboard](#-power-bi-dashboard)
 - [System Architecture](#️-system-architecture--workflow-pipeline)
 - [Repository Structure](#-project-repository-structure)
 - [Quick Start](#-quick-start--local-setup)
@@ -38,7 +39,7 @@
 | :--- | :--- |
 | 🚀 **Live Web Application** | [customer-churn-prediction.streamlit.app](https://customer-churn-prediction-dquj8ttzoyx9l2q3tzsd59.streamlit.app/) |
 | ⚡ **Production REST API Docs** | [customer-churn-api.onrender.com/docs](https://customer-churn-prediction-70xe.onrender.com/docs) |
-| 📊 **Power BI Dashboard** | [powerbi/Customer_Churn_Dashboard.pbix](powerbi/Customer_Churn_Dashboard.pbix) |
+| 📊 **Power BI Dashboard** | [View screenshots below](#-power-bi-dashboard) · [download .pbix](powerbi/Customer_Churn_Dashboard.pbix) |
 
 <br>
 
@@ -108,6 +109,18 @@ Evaluated **5 classification algorithms** on the UCI Telecom Customer Churn Data
 | Gradient Boosting | 93.16% | 84.00% | 74.00% | 0.7865 | 96.10% | Benchmark |
 | Decision Tree | 92.10% | 81.00% | 72.00% | 0.7623 | 90.50% | Benchmark |
 | Logistic Regression | 90.94% | 78.00% | 68.00% | 0.7267 | 88.20% | Baseline |
+
+<br>
+
+## 📊 Power BI Dashboard
+
+> Interactive Power BI report with churn KPIs, customer segmentation, and revenue-at-risk breakdowns. [Download the full `.pbix` file](powerbi/Customer_Churn_Dashboard.pbix) to explore it live in Power BI Desktop.
+
+<p align="center">
+  <img width="48%" alt="powerbi_preview_1" src="REPLACE_WITH_YOUR_IMAGE_URL_1" />
+  &nbsp;
+  <img width="48%" alt="powerbi_preview_2" src="REPLACE_WITH_YOUR_IMAGE_URL_2" />
+</p>
 
 <br>
 
