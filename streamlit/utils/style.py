@@ -6,7 +6,6 @@ def apply_custom_css():
     - Soft Slate Canvas background (#F1F5F9)
     - Crisp White Cards (#FFFFFF) with 1px border (#CBD5E1) and subtle drop shadow
     - Dark Slate Hero Header Banner for immediate visual contrast and depth
-    - CSS rule renaming default 'app' sidebar navigation text to 'Home'
     """
     st.markdown("""
     <style>
@@ -67,7 +66,7 @@ def apply_custom_css():
             font-weight: 600 !important;
         }
 
-        /* Sidebar Styling & Nav Text Fix (Renaming 'app' -> 'Home') */
+        /* Sidebar Styling */
         section[data-testid="stSidebar"] {
             background-color: #E2E8F0 !important;
             border-right: 1px solid #CBD5E1 !important;
@@ -81,22 +80,6 @@ def apply_custom_css():
             background-color: #FFFFFF !important;
             border: 1px solid #94A3B8 !important;
             color: #0F172A !important;
-        }
-
-        /* Rename default 'app' link to 'Home' in sidebar nav */
-        div[data-testid="stSidebarNav"] li:first-child span {
-            visibility: hidden;
-            position: relative;
-        }
-
-        div[data-testid="stSidebarNav"] li:first-child span::after {
-            content: "Home";
-            visibility: visible;
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-weight: 600;
-            color: #0F172A;
         }
 
         /* Pure White Elevated Metric Cards */
