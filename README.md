@@ -1,4 +1,4 @@
-# Customer Churn Intelligence & Analytics Platform
+<img width="959" height="419" alt="image" src="https://github.com/user-attachments/assets/0ddeaea0-b959-48e9-866e-d2bbb241cbd5" /># Customer Churn Intelligence & Analytics Platform
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.6+-111111?style=flat-square)](https://xgboost.readthedocs.io/)
@@ -14,8 +14,8 @@ An enterprise-grade, end-to-end Machine Learning, SQL Analytics, and MLOps solut
 
 ## 🔗 Live Deployments & API Documentation
 
-- **🚀 Live Web Application**: [https://customer-churn-prediction.streamlit.app](https://customer-churn-prediction.streamlit.app)
-- **⚡ Production REST API Docs**: [https://customer-churn-api.onrender.com/docs](https://customer-churn-api.onrender.com/docs)
+- **🚀 Live Web Application**: [https://customer-churn-prediction.streamlit.app](https://customer-churn-prediction-dquj8ttzoyx9l2q3tzsd59.streamlit.app/)
+- **⚡ Production REST API Docs**: [https://customer-churn-api.onrender.com/docs]( https://customer-churn-prediction-70xe.onrender.com/docs)
 - **📊 Power BI Dashboard**: [powerbi/Customer_Churn_Dashboard.pbix](file:///d:/Projects/Customer-Churn-Prediction/powerbi/Customer_Churn_Dashboard.pbix)
 
 ---
@@ -25,21 +25,27 @@ An enterprise-grade, end-to-end Machine Learning, SQL Analytics, and MLOps solut
 ### 1. Executive Dashboard & Portfolio Analytics
 > *Interactive KPI metrics, tenure cohort churn distribution, complaint history breakdown, and portfolio filters.*
 
-![Executive Dashboard Preview](streamlit/assets/dashboard_preview.png)
+![Executive Dashboard Preview](streamlit/assets/dashboard_preview_1.png)
+
+![Executive Dashboard Preview](streamlit/assets/dashboard_preview_2.png)
 
 ---
 
 ### 2. Real-Time Churn Predictor & Explainable AI (XAI)
 > *Single customer risk evaluation, probability gauge dial, and per-feature influence breakdown.*
 
-![Predictor & Feature Influence Preview](streamlit/assets/predictor_preview.png)
+![Predictor & Feature Influence Preview](streamlit/assets/predictor_preview_1.png)
+
+![Predictor & Feature Influence Preview](streamlit/assets/predictor_preview_2.png)
 
 ---
 
 ### 3. Batch CSV Risk Dataset Processing
 > *Bulk upload customer datasets, generate risk score predictions, and download processed CSV reports.*
 
-![Batch Processing Preview](streamlit/assets/batch_preview.png)
+![Batch Processing Preview](streamlit/assets/batch_preview_1.png)
+
+![Batch Processing Preview](streamlit/assets/batch_preview_2.png)
 
 ---
 
@@ -65,31 +71,15 @@ An enterprise-grade, end-to-end Machine Learning, SQL Analytics, and MLOps solut
 
 Evaluated 5 classification algorithms on the **UCI Telecom Customer Churn Dataset** (2,850 records):
 
-| Model Algorithm | Accuracy | Precision | Recall | F1 Score | ROC-AUC | Status |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **XGBoost Classifier** | **94.04%** | **85.50%** | **76.00%** | **0.8048** | **97.31%** | 🏆 Selected |
-| **Random Forest Classifier** | **94.04%** | 86.67% | 75.28% | 0.7929 | 97.31% | Benchmark |
-| **Gradient Boosting** | 93.16% | 84.00% | 74.00% | 0.7865 | 96.10% | Benchmark |
-| **Decision Tree** | 92.10% | 81.00% | 72.00% | 0.7623 | 90.50% | Benchmark |
-| **Logistic Regression** | 90.94% | 78.00% | 68.00% | 0.7267 | 88.20% | Baseline |
+![Model Comparison Preview](streamlit/assets/model_comparison.png)
 
 ---
 
 ## 🏗️ System Architecture & Workflow Pipeline
 
-```
-┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
-│ Raw Data Ingest │ ---> │ Data Prep & XAI  │ ---> │ XGBoost Model   │
-│ (UCI Repository)│      │ Feature Deriv.   │      │ (Accuracy 94%)  │
-└─────────────────┘      └──────────────────┘      └────────┬────────┘
-                                                            │
-    ┌───────────────────────────────────────────────────────┴───────────────────────────────────────────────────────┐
-    │                                                       │                                                       │
-    ▼                                                       ▼                                                       ▼
-┌────────────────────────┐              ┌────────────────────────┐              ┌────────────────────────┐
-│ Streamlit UI Platform  │              │ SQLite Database Storage│              │ FastAPI REST Service   │
-│ Multi-Page Analytics   │              │ (sql/churn.db)         │              │ (POST /predict)        │
-└────────────────────────┘              └────────────────────────┘              └────────────────────────┘
+
+![Architecture Diagram Preview](streamlit/assets/architecture_diagram.png)
+
 ```
 
 ---
