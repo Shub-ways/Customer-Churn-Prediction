@@ -20,8 +20,8 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest pandas numpy scikit-learn xgboost joblib plotly fastapi uvicorn pydantic
+        pip install -r streamlit/requirements.txt pytest fastapi uvicorn pydantic httpx
 
     - name: Run Pytest Suite
       run: |
-        pytest tests/
+        PYTHONPATH=streamlit python -m pytest tests/

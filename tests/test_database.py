@@ -2,7 +2,10 @@ import sys
 from pathlib import Path
 
 base_dir = Path(__file__).resolve().parents[1]
-sys.path.append(str(base_dir / "streamlit"))
+if str(base_dir) not in sys.path:
+    sys.path.append(str(base_dir))
+if str(base_dir / "streamlit") not in sys.path:
+    sys.path.append(str(base_dir / "streamlit"))
 
 from utils.database import run_query, get_all_customers
 
