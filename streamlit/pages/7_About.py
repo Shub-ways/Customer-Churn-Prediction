@@ -19,7 +19,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("""
-    <div class="equal-card" style="min-height: 255px;">
+    <div class="equal-card" style="min-height: 285px; height: 285px;">
         <div>
             <h4>Dataset Specifications</h4>
             <p>
@@ -35,7 +35,7 @@ with col1:
     
 with col2:
     st.markdown("""
-    <div class="equal-card" style="min-height: 255px;">
+    <div class="equal-card" style="min-height: 285px; height: 285px;">
         <div>
             <h4>Engineering & MLOps Tech Stack</h4>
             <p>
