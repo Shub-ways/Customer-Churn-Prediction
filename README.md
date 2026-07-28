@@ -1,4 +1,4 @@
-<img width="959" height="419" alt="image" src="https://github.com/user-attachments/assets/0ddeaea0-b959-48e9-866e-d2bbb241cbd5" /># Customer Churn Intelligence & Analytics Platform
+# Customer Churn Intelligence & Analytics Platform
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.6+-111111?style=flat-square)](https://xgboost.readthedocs.io/)
@@ -25,34 +25,40 @@ An enterprise-grade, end-to-end Machine Learning, SQL Analytics, and MLOps solut
 ### 1. Executive Dashboard & Portfolio Analytics
 > *Interactive KPI metrics, tenure cohort churn distribution, complaint history breakdown, and portfolio filters.*
 
-![Executive Dashboard Preview](streamlit/assets/dashboard_preview_1.png)
+<img width="959" height="425" alt="dashboard_preview_1" src="https://github.com/user-attachments/assets/d89c5eca-5052-462a-81fa-dcd7e9fc2be1" />
 
-![Executive Dashboard Preview](streamlit/assets/dashboard_preview_2.png)
+
+<img width="959" height="451" alt="dashboard_preview_2" src="https://github.com/user-attachments/assets/b957fe66-02e1-4ccf-9229-136f95060111" />
+
 
 ---
 
 ### 2. Real-Time Churn Predictor & Explainable AI (XAI)
 > *Single customer risk evaluation, probability gauge dial, and per-feature influence breakdown.*
 
-![Predictor & Feature Influence Preview](streamlit/assets/predictor_preview_1.png)
+<img width="959" height="419" alt="predictor_preview_1" src="https://github.com/user-attachments/assets/33f6de85-b757-475e-b99f-7f4505c0ea3a" />
 
-![Predictor & Feature Influence Preview](streamlit/assets/predictor_preview_2.png)
+<img width="959" height="423" alt="predictor_preview_2" src="https://github.com/user-attachments/assets/b1482208-fd47-46b3-954b-5904476f7004" />
+
 
 ---
 
 ### 3. Batch CSV Risk Dataset Processing
 > *Bulk upload customer datasets, generate risk score predictions, and download processed CSV reports.*
 
-![Batch Processing Preview](streamlit/assets/batch_preview_1.png)
+<img width="959" height="323" alt="batch_preview_1" src="https://github.com/user-attachments/assets/1b1861e1-78c0-4a76-a74f-5f4868b99c16" />
 
-![Batch Processing Preview](streamlit/assets/batch_preview_2.png)
+
+<img width="959" height="430" alt="batch_preview_2" src="https://github.com/user-attachments/assets/84c10fcc-07a2-4df7-b096-a0bdd91848a6" />
+
 
 ---
 
 ### 4. Production REST API Microservice (FastAPI & Swagger UI)
 > *High-performance asynchronous prediction endpoints (`POST /predict` and `POST /predict_batch`).*
 
-![FastAPI Swagger UI Preview](streamlit/assets/api_docs_preview.png)
+<img width="959" height="381" alt="api_docs_preview" src="https://github.com/user-attachments/assets/3e13cb55-a201-4b2e-a629-dc49b7151c4c" />
+
 
 ---
 
@@ -71,14 +77,16 @@ An enterprise-grade, end-to-end Machine Learning, SQL Analytics, and MLOps solut
 
 Evaluated 5 classification algorithms on the **UCI Telecom Customer Churn Dataset** (2,850 records):
 
-![Model Comparison Preview](streamlit/assets/model_comparison.png)
+<img width="2579" height="1379" alt="model_comparison" src="https://github.com/user-attachments/assets/dcd5b5a1-ee65-4a07-81f7-a8ecc130585a" />
+
 
 ---
 
 ## 🏗️ System Architecture & Workflow Pipeline
 
 
-![Architecture Diagram Preview](streamlit/assets/architecture_diagram.png)
+<img width="2779" height="1580" alt="architecture_diagram" src="https://github.com/user-attachments/assets/a3f7cfa3-ed9e-4c6a-9d5a-22f3dcc20e8b" />
+
 
 ```
 
