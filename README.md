@@ -114,8 +114,7 @@ Evaluated **5 classification algorithms** on the UCI Telecom Customer Churn Data
 
 ## 📊 Power BI Dashboard
 
-> Interactive Power BI report with churn KPIs, customer segmentation, and revenue-at-risk breakdowns. [Download the full `.pbix` file](powerbi/Customer_Churn_Dashboard.pbix) to explore it live in Power BI Desktop.
-
+> Interactive Power BI report with churn KPIs, customer segmentation, and revenue-at-risk breakdowns.
 <p align="center">
   <img width="48%" alt="Executive_Dashboard" src="https://github.com/user-attachments/assets/68302712-fe2d-440a-b5ac-48426501f137" />
   &nbsp;
